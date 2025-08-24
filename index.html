@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tech Portfolio</title>
+  <title>Dr Gregg Hudson</title>
+  <meta name="description" content="Case Studies highlighting the career of Gregg Hudson">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -49,7 +50,7 @@
     /* Case Studies */
     .case-study {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 1rem;
       margin-bottom: 1.5rem;
       background: #fff;
@@ -67,7 +68,7 @@
       flex: 1;
     }
     .case-study-content h3 {
-      margin: 0;
+      margin: 0 0 0.3rem;
       color: #007BFF;
     }
     .video iframe {
@@ -91,39 +92,94 @@
 </head>
 <body>
   <header>
-    <h1>My Tech Portfolio</h1>
+    <h1>Dr Gregg Hudson</h1>
     <p>Technology Delivery · Strategy · Research</p>
   </header>
 
   <section class="about">
-    <img src="your-photo.jpg" alt="Your Photo">
+    <img src="images/avatar.jpg" alt="Gregg Hudson">
     <div>
       <h2>About Me</h2>
-      <p>Hello! I'm [Your Name]. I work in technology delivery & strategy, and this site showcases my video case studies, written case studies, and research papers.</p>
+      <p>Hello! I'm Gregg Hudson, Ph.D. I specialise in technology delivery & strategy. This site showcases my case studies, collaborations, and research papers.</p>
     </div>
-  </section>
-
-  <section class="video">
-    <h2>Video Case Studies</h2>
-    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
   </section>
 
   <section>
-    <h2>Written Case Studies</h2>
+    <h2>Case Studies & Partnerships</h2>
+
     <div class="case-study">
-      <img src="company-logo1.png" alt="Company Logo">
+      <img src="images/samsung.png" alt="Samsung Logo">
       <div class="case-study-content">
-        <h3>Case Study: Digital Transformation</h3>
-        <p>Delivered a multi-year strategy for cloud adoption across the enterprise, driving 30% efficiency gains.</p>
-        <a href="case-study1.pdf" target="_blank">Read full case study →</a>
+        <h3>Samsung: A Force for Change</h3>
+        <p>How my team used Samsung Knox to equip frontline workers with secure, robust, user-friendly mobile devices.</p>
+        <a href="pdfs/samsung-case-study.pdf" target="_blank">Read case study →</a>
       </div>
     </div>
+
     <div class="case-study">
-      <img src="company-logo2.png" alt="Company Logo">
+      <img src="images/android.png" alt="Android Enterprise Logo">
       <div class="case-study-content">
-        <h3>Case Study: Agile Delivery</h3>
-        <p>Led a cross-functional team to roll out an enterprise payments platform in record time.</p>
-        <a href="case-study2.pdf" target="_blank">Read full case study →</a>
+        <h3>Android Enterprise</h3>
+        <p>Streamlining frontline working with Android Enterprise.</p>
+        <a href="pdfs/android-enterprise.pdf" target="_blank">Read case study →</a>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <img src="images/forrester.png" alt="Forrester Logo">
+      <div class="case-study-content">
+        <h3>Forrester Report</h3>
+        <p>The Total Economic Impact Of Android Enterprise.</p>
+        <a href="pdfs/forrester-tei.pdf" target="_blank">Read report →</a>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <img src="images/vmware.png" alt="VMware Logo">
+      <div class="case-study-content">
+        <h3>VMware Case Study</h3>
+        <p>Enhancing frontline mobility through VMware partnership.</p>
+        <a href="pdfs/vmware-wmp.pdf" target="_blank">Read case study →</a>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <img src="images/vodafone.png" alt="Vodafone Logo">
+      <div class="case-study-content">
+        <h3>Vodafone Partnership</h3>
+        <p>Helping digitise officers to spend more time serving the public and less on paperwork.</p>
+        <a href="pdfs/vodafone-case-study.pdf" target="_blank">Read case study →</a>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <img src="images/bbc.png" alt="BBC Logo">
+      <div class="case-study-content">
+        <h3>BBC Midlands Today</h3>
+        <p>Officers explain how they use their mobile kit in the field.</p>
+        <a href="videos/wmp-bbc.mp4" target="_blank">Watch video →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Automation & UiPath</h2>
+
+    <div class="case-study">
+      <img src="images/uipath.png" alt="UiPath Logo">
+      <div class="case-study-content">
+        <h3>UiPath Fireside Chat</h3>
+        <p>Discussing how automation is providing better outcomes for policing and improving public sector services.</p>
+        <a href="videos/uipath-fireside.mp4" target="_blank">Watch video →</a>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <img src="images/uipath.png" alt="UiPath Logo">
+      <div class="case-study-content">
+        <h3>UiPath Case Study</h3>
+        <p>How West Midlands Police implemented software robots to save time and focus on community service.</p>
+        <a href="pdfs/uipath-case-study.pdf" target="_blank">Read case study →</a>
       </div>
     </div>
   </section>
@@ -131,13 +187,14 @@
   <section>
     <h2>Published Research Papers</h2>
     <ul>
-      <li><a href="paper1.pdf" target="_blank">Paper Title 1 (Journal, Year)</a></li>
-      <li><a href="paper2.pdf" target="_blank">Paper Title 2 (Conference, Year)</a></li>
+      <li><a href="pdfs/hudson-2015-jbc.pdf" target="_blank">JBC (2015): Recruitment of Class IIa HDACs</a></li>
+      <li><a href="pdfs/hudson-2016-cellrep.pdf" target="_blank">Cell Rep (2016): Disruption of Class IIa HDAC Complex</a></li>
+      <li><a href="pdfs/hudson-2010-acta.pdf" target="_blank">Acta Crystallographica (2010): GAPDH Mutant Structures</a></li>
     </ul>
   </section>
 
   <footer>
-    <p>© 2025 Your Name · <a href="mailto:you@email.com">Contact Me</a></p>
+    <p>© 2025 Gregg Hudson · <a href="https://www.linkedin.com/in/gregg-hudson" target="_blank">LinkedIn</a></p>
   </footer>
 </body>
 </html>
